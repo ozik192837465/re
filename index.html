@@ -1,0 +1,350 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Продажи</title>
+    <link rel="stylesheet" href="style1.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+  </head>
+  <body>
+
+      <!-- Первые три блока -->
+      <div class="first-line">
+        <div class="first-left">
+            <div class="left-text">
+                <div class="earned"><p>Заработано</p></div>
+                <div class="missed"><p>Упущенная прибыль</p></div>
+            </div>
+            <div class="left-num">
+                <p>254000 / 765000</p>
+            </div>
+        </div>
+
+        <div class="first-center">
+          <div class="center-text"><a>Всего продаж</a></div>
+          <div class="center-num"><a>5324</a></div>
+        </div>
+
+        <div class="first-right">
+          <div class="right-text"><a>Заявок</a></div>
+          <div class="right-num"><a>1500</a></div>
+        </div>
+      </div>
+
+
+      <!-- Три кнопки (Продажи, Заявки, Реферальные ссылки) -->
+
+        <div class="buttons">
+
+            <a id="first-button" onclick="aClick(this)">Продажи</a>
+
+            <a id="second-button" onclick="bClick(this)">Заявки</a>
+
+            <a id="third-button" onclick="cClick(this)">Реферальные ссылки</a>
+
+        </div>
+
+
+      <!-- Контент -->
+      <div class="content">
+
+          <!-- Левая часть -->
+          <div class="left-row">
+
+              <!-- Первый график -->
+              <div class="first-graph">
+
+                <div class="first-graph-header">
+                  <div class="first-graph-buttons">
+                    <div class="first-graph-buttons-1"><a>За последний месяц</a></div>
+                    <div class="first-graph-buttons-2"><a>10 линий</a></div>
+                    <div class="first-graph-buttons-3"><a>Все города</a></div>
+                  </div>
+
+                  <div class="first-graph-text">
+                    <div class="first-graph-text-1">Итого <br>за период</div>
+                    <div class="first-graph-text-2">1500</div>
+                  </div>
+                </div>
+
+                <div class="first-graph-content">
+                  <img src="2.jpg" alt="">
+                </div>
+              </div>
+
+              <!-- Второй график -->
+              <div class="second-graph">
+
+                  <div class="second-graph-caption">
+                    <h2>Выплаты за продажи по линиям</h2>
+                  </div>
+
+                  <div class="second-graph-content">
+
+                    <div class="second-graph-header">
+                      <div>Старт</div>
+                      <div>Лайт</div>
+                      <div>Премиум</div>
+                      <div>Элит</div>
+                    </div>
+
+                    <hr class="hr">
+
+                    <div class="second-graph-table">
+                      <div class="second-graph-table-1">
+                        <div>1 линия</div>
+                        <div>2 линия</div>
+                        <div>3 линия</div>
+                        <div>4 линия</div>
+                        <div>5 линия</div>
+                        <div>6 линия</div>
+                        <div>7 линия</div>
+                        <div>8 линия</div>
+                        <div>9 линия</div>
+                        <div>10 линия</div>
+                      </div>
+                      <div class="second-graph-table-2">
+                        <div>50</div>
+                        <div>150</div>
+                        <div>300</div>
+                        <div>350</div>
+                        <div>150</div>
+                        <div>200</div>
+                        <div>300</div>
+                        <div>500</div>
+                        <div>300</div>
+                        <div>200</div>
+                      </div>
+                      <div class="second-graph-table-3">
+                        <img src="32.jpg" height="247px" width="200px" alt="">
+                      </div>
+                      <div class="second-graph-table-4">
+                        <div>1 000</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                      </div>
+                      <div class="second-graph-table-5">
+                        <div>3 000</div>
+                        <div>3 000</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                      </div>
+                      <div class="second-graph-table-6">
+                        <div>5 000</div>
+                        <div>9 000</div>
+                        <div>6 000</div>
+                        <div>3 500</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                        <div>-</div>
+                      </div>
+                      <div class="second-graph-table-7">
+                        <div>10 000</div>
+                        <div>15 000</div>
+                        <div>18 000</div>
+                        <div>7 500&nbsp;&nbsp;</div>
+                        <div>1 500&nbsp;&nbsp;</div>
+                        <div>2 000&nbsp;&nbsp;</div>
+                        <div>6 000&nbsp;&nbsp;</div>
+                        <div>30 000</div>
+                        <div>30 000</div>
+                        <div>40 000</div>
+                      </div>
+                    </div>
+
+                    <hr>
+
+                    <div class="second-graph-res">
+                      <div>1 000</div>
+                      <div>6 000</div>
+                      <div>23 500</div>
+                      <div>159 500</div>
+                    </div>
+
+                  </div>
+
+              </div>
+
+          </div>
+
+          <!-- Правая часть -->
+          <div class="right-row">
+
+            <!-- Первый блок -->
+            <div id="first-block">
+                <div class="first-block-caption">
+                  <a>ЛАЙТ(ваш тариф)</a>
+                </div>
+                <div class="first-block-text">
+                  <p>заработок: <a>10000 р.</a></p>
+                </div>
+                <div class="first-block-content">
+                  <div>1 линия</div>
+                  <div>50</div>
+                  <div>10 000</div>
+                  <div>2 линия</div>
+                  <div>150</div>
+                  <div>-</div>
+                  <div>3 линия</div>
+                  <div>300</div>
+                  <div>-</div>
+                  <div>4 линии</div>
+                  <div>350</div>
+                  <div>-</div>
+                  <div>5 линия</div>
+                  <div>150</div>
+                  <div>-</div>
+                  <div>6 линия</div>
+                  <div>200</div>
+                  <div>-</div>
+                  <div>7 линия</div>
+                  <div>300</div>
+                  <div>-</div>
+                  <div>8 линия</div>
+                  <div>500</div>
+                  <div>-</div>
+                  <div>9 линия</div>
+                  <div>300</div>
+                  <div>-</div>
+                  <div>10 линия</div>
+                  <div>200</div>
+                  <div>-</div>
+                </div>
+            </div>
+
+            <!-- Второй блок -->
+            <div id="second-block">
+              <p>Лидеры структуры</p>
+              <div class="second-block-content">
+                <div class="left-col">
+                  <div>
+                    <p>Айрат Сайфуллин <br>3 линия</p>
+                  </div>
+                  <div>
+                    <p>Александр Попов<br>4 линия</p>
+                  </div>
+                  <div>
+                    <p>Марат Ильясов<br>6 линия</p>
+                  </div>
+                  <div>
+                    <p>Светлана Фролова<br>6 линия</p>
+                  </div>
+                  <div>
+                    <p>Анастасия Мороз<br>6 линия</p>
+                  </div>
+                  <div>
+                    <p>Лера Алексеева<br>6 линия</p>
+                  </div>
+                  <div>
+                    <div><a href="#">Посмотреть всех</a></div>
+                  </div>
+                </div>
+
+                <div class="right-col">
+                  <div>1200</div>
+                  <div>1100</div>
+                  <div>1050</div>
+                  <div>850</div>
+                  <div>795</div>
+                  <div>632</div>
+                  <div>523</div>
+                  <div></div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Заявки -->
+            <div id="application">
+
+              <div><p>Присутствие</p></div>
+              <div class="img4"><img src="4.jpg" alt=""></div>
+              <div class="img7"><img src="7.jpg"  alt=""></div>
+
+            </div>
+
+          </div>
+
+      </div>
+
+
+  <script type="text/javascript">
+
+    function bClick(button)
+    {
+      document.getElementById('second-button').style.backgroundColor= '#0041a3';
+      document.getElementById('second-button').style.borderRadius= '50px';
+      document.getElementById('second-button').style.display= 'block';
+      document.getElementById('second-button').style.color=  '#fff';
+      document.getElementById('second-button').style.textDecoration= 'none';
+      document.getElementById('second-button').style.textAlign= 'center';
+      document.getElementById('second-button').style.width= '124px';
+      document.getElementById('second-button').style.height= '40px';
+
+      document.getElementById('third-button').style.color =  '#3c3c3c';
+      document.getElementById('third-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
+      document.getElementById('third-button').style.width =  '350px';
+
+      document.getElementById('first-button').style.color =  '#3c3c3c';
+      document.getElementById('first-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
+
+      document.getElementById('application').style.display='block';
+      document.getElementById('second-block').style.display='none';
+      document.getElementById('first-block').style.display='none';
+    }
+
+    function aClick(button)
+    {
+      document.getElementById('first-button').style.backgroundColor= '#0041a3';
+      document.getElementById('first-button').style.color=  '#fff';
+      document.getElementById('first-button').style.paddingLeft= '10px';
+      document.getElementById('first-button').style.paddingRight= '10px';
+
+      document.getElementById('second-button').style.color =  '#3c3c3c';
+      document.getElementById('second-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
+      document.getElementById('third-button').style.color =  '#3c3c3c';
+      document.getElementById('third-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
+
+
+      document.getElementById('application').style.display='none';
+      document.getElementById('second-block').style.display='block';
+      document.getElementById('first-block').style.display='block';
+    }
+
+
+    function cClick(button)
+    {
+      document.getElementById('third-button').style.backgroundColor= '#0041a3';
+      document.getElementById('third-button').style.borderRadius= '50px';
+      document.getElementById('third-button').style.display= 'block';
+      document.getElementById('third-button').style.color=  '#fff';
+      document.getElementById('third-button').style.textDecoration= 'none';
+      document.getElementById('third-button').style.textAlign= 'center';
+      document.getElementById('third-button').style.width= '350px';
+      document.getElementById('second-button').style.height= '33px';
+
+      document.getElementById('first-button').style.color =  '#3c3c3c';
+      document.getElementById('first-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
+      document.getElementById('second-button').style.color =  '#3c3c3c';
+      document.getElementById('second-button').style.backgroundColor =  'rgba(255, 255, 255, 0)';
+    }
+  </script>
+
+
+  </body>
+</html>
